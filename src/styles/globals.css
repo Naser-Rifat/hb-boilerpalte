@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html,
+.signupPageColor {
+  /* background: linear-gradient(140.13deg, #2c62d6 -4.34%, #48b0e0 104.04%); */
+}
+
+  
+.bannerBackground {
+  background: linear-gradient(180deg, #2c62d6 0%, #48b0e0 100%);
+  height: 37rem;
+}
+.fullbg{
+  background-color: #F7FBFF;
+}
+.customContainer {
+  width: 55rem;
+  margin: 0 auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
